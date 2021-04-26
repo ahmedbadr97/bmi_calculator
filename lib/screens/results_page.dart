@@ -1,9 +1,9 @@
 import 'package:bmi_calculator/calculator_brain.dart';
 import 'package:flutter/material.dart';
-import '../constants.dart';
-import '../components/reusable_card.dart';
-import '../components/bottom_Button.dart';
-import 'input_dart.dart';
+import 'package:bmi_calculator/constants.dart';
+import 'package:bmi_calculator/components/screen_card.dart';
+import 'package:bmi_calculator/components/buttom_button.dart';
+import 'input_screen.dart';
 
 class ResultsPage extends StatelessWidget {
   final CalculatorBrain calculatorBrain;
